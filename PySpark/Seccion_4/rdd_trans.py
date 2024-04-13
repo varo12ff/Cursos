@@ -10,7 +10,7 @@ def run():
 
     ##### EJERCICIO 1
     print("*****EJERCICIO 1*****\n")
-    rdd_langs = spark.sparkContext.parallelize(["Pyhon", "R", "C", "Scala", "Rugby", "SQL"], 5)
+    rdd_langs = spark.sparkContext.parallelize(["Pyhon", "R", "Ca", "Scala", "Rugby", "SQL"], 5)
     print(f'RDD con lenguajes ----> {rdd_langs.collect()}\n')
 
     print("*****EJERCICIO 1.a*****\n")
